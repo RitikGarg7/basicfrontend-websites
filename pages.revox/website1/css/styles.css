@@ -1,0 +1,152 @@
+
+
+
+span{
+    color: blue;
+}
+
+#navbar{
+    
+    height:4rem;
+}
+nav{
+    padding:1rem;
+}
+
+nav li{
+    color: #fff;
+}
+ .black{
+    background: #2c2c2c;
+}
+.trans{
+    background: transparent;
+}
+
+#showcase{
+    background-image: url(../images/adventure-alps-beautiful-552785.jpg);
+    height: 100vh;
+    width: 100vw;
+}
+
+#showcase .container{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.container h1{
+    font-size: 44px;
+    color: #2c2c2c;
+    line-height: 55px;
+    font-weight: 300!important;
+    margin: 10px 0;
+    font-family: open sans,sans-serif;
+}
+
+
+#explore{
+    background: #f4f4ff;
+}
+
+p {
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+   
+    
+    margin: 0 0 10px;
+    font-style: normal;
+    white-space: normal;
+}
+
+
+#explore{
+    padding: 4rem;
+}
+
+ .row{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+   
+    align-items: center;
+}
+
+s
+.explore-p2,.explore-p3,h1{
+    color: #626262;
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: .01em;
+    line-height: 25px;
+    margin: 0 0 10px;
+    font-style: normal;
+    white-space: normal;
+
+}
+
+
+#boxes{
+    padding:4rem;
+    text-align: center;
+}
+
+.box h1{
+    font-weight: bold;
+    font-family: montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+}
+
+
+
+#menu-clipping{
+    padding: 4rem;
+    background: #f4f4ff;
+}
+
+#menu-clipping h4{
+    font-family: montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+}
+#menu-clipping .pad{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#motivation{
+    height: 50vh;
+}
+.carousel-item{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    padding-left: 3rem;
+    padding-right: 6rem;
+}
+.carousel-item p{
+    font-size: 2.5rem;
+}
+
+
+
+
+#footer{
+    padding: 4rem;
+    margin-bottom: 0;
+    color: #fff;
+}
