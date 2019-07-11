@@ -1,0 +1,208 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#navbar{
+    
+    display: block;
+}
+
+nav{
+    margin:30px;
+  
+    display: block;
+    padding-bottom: 1rem;
+}
+
+
+
+.right-side ul {
+    list-style-type: none;
+    float: right;
+    display: inline-flex;
+    padding-top: 8px;
+    margin-right: 60px;
+}
+.right-side ul li{
+    padding-right: 20px;
+
+}
+
+.branding{
+    margin-left: 70px;
+  float: left;
+  font-size: 24px;
+  /* line-height: 52px; */
+  color: #666;
+  /* transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease; */
+  font-weight: 300;
+}
+
+/* SHOWCASE */
+
+#showcase{
+   
+    height:90vh;
+    width: 100vw;
+    background: url(../images/blue-clean-close-up-1350197.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#showcase h1{
+    margin-bottom: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    padding: 0;
+
+    font-size: 60px;
+    line-height: 64px;
+}
+#showcase p{
+    margin-bottom: 24px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: raleway,helvetica neue,Helvetica,Arial,sans-serif;
+    color: #8c979e;
+}
+
+#showcase .container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn{
+    line-height: 24px;
+    min-width: 200px;
+    text-decoration: none;
+    padding: 13px 26px 13px 26px;
+    min-width: 200px;
+    line-height: 36px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 0;
+    text-align: center;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    margin-right: 8px;
+    margin-bottom: 24px;
+    white-space: normal;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: inherit;
+
+}
+#down-btn{
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+
+#read-btn{
+    background: #745cf9;
+    color: #fff;
+    border-color: #745cf9;
+    border: 2px solid #745cf9;
+}
+
+#others .container{
+    height:60vh;
+}
+
+/* .text-1{
+    width:100%;
+    height:100%;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.row{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* recent section */
+#recent{
+    height:100vh;
+    background: #000;
+    text-align: center;
+
+}
+
+.collage{
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    float: left;
+     width: 25%;
+     height: 33vh;
+}
+
+/* reviews */
+ #reviews{
+     padding: 3rem auto;
+     padding-top:4rem;
+    text-align: center;
+    height:50vh;
+    background-image: url(../images/blue-clean-close-up-1350197.jpg);
+     background-attachment: fixed; 
+} 
+#reviews .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/* clients */
+
+#clients{
+    position: relative;
+    height:50vh;
+}
+
+
+
+/* footer */
+#footer{
+    height:60vh;
+}
+
+.container-footer1{
+    height:50%;
+    background: #f4f4f4;
+}
+
+.container-footer2{
+    height:50%;
+    background: #000;
+}
